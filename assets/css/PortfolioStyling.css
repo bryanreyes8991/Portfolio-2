@@ -8,7 +8,8 @@
     --main: rgb(108, 163, 197);
     --font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --secondary: rgb(49, 65, 72);
-    --hover: rgb(98, 223, 100);
+    --hover: rgb(132, 152, 206);
+    --preHoverImage: rgb(132, 152, 206, 0.377);
 }
 
 .bryan-img {
@@ -95,10 +96,65 @@ footer h2 {
     transform: scale(1.80, 1.55);
 }
 
-.eclipse p {
- 
-    }
+ .eclipse-h3 {
+    border: 2px solid gray;
+    padding-top: 595px;
+    padding-right: 685px;
+    position: absolute;
+    bottom: -640px;
+    left: 690px;
+    color: brown;
+    background-color:var(--preHoverImage);
+    font-size: 300%;
+}
 
+.altitude-h3 {
+    font-size: 300%;
+    border: 2px solid gray;
+    position: absolute;
+    color: blueviolet;
+    bottom: -1000px;
+    left:1200px;
+    padding-top: 275px;
+    padding-right:145px;
+    background-color: var(--preHoverImage);
+}
+
+.flower-h3 {
+    font-size: 300%;
+    border: 2px solid gray;
+    color: yellow;
+    position: absolute;
+    bottom: -1000px;
+    left:688px;
+    padding-top: 275px;
+    padding-right: 140px;
+    background-color: var(--preHoverImage);
+}
+
+.cat-h3 {
+    font-size: 300%;
+    border: 2px solid gray;
+    color: rgb(255, 174, 24);
+    position: absolute;
+    bottom: -1350px;
+    left: 1200px;
+    padding-top: 275px;
+    padding-right: 195px;
+    background-color: var(--preHoverImage);
+}
+
+.magnified-treesh3 {
+    font-size: 300%;
+    border: 2px solid gray;
+    color:darkturquoise;
+    position: absolute;
+    bottom: -1350px;
+    left:686px;
+    padding-top: 275px;
+    padding-right: 200px;
+    background-color: var(--preHoverImage);
+}
 
 .flower {
 width: 500px;
@@ -129,6 +185,7 @@ left: 1200px;
 }
 
 
-img:hover {
+h3:hover {
+    background-color: rgba(240, 248, 255, 0);
     box-shadow: 0px 0px 8px var(--hover), 0px 0px 15px var(--hover);
 }
