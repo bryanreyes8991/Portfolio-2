@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main: rgb(108, 163, 197);
+    --font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --secondary: rgb(49, 65, 72);
+    --hover: rgb(98, 223, 100);
+}
+
+.bryan-img {
+    width: 10%;
+    position: absolute;
+    top: 200px;
+    right: 900px;
+
+}
+
+header {
+    font-family:var(--font) ;
+    padding: 1.5%;
+    background-color:var(--secondary);
+    border-bottom:var(--main) 300px solid ;
+}
+
+header h1{
+    display: inline;
+    font-size: 250%;
+    background-color: rgba(104, 226, 226, 0.675);
+}
+
+nav {
+    padding: 40px;
+}
+a {
+    color:var(--main);
+    margin-left: 200px;
+    font-size: 150%;
+    margin: 1%;
+    float: right;
+}
+
+
+aside {
+    color:var(--main);
+    font-size: 200%;
+    padding: 200px;
+    border: black 1px solid;
+    /*border-right: 5px solid rgb(108, 163, 197);*/
+}
+
+main {
+   display: flex; 
+   flex: wrap;
+   justify-content: center;
+}
+
+h2 {
+    margin-bottom: 200px;
+}
+
+.about-paragraph {
+    border: blue solid 1px;
+    width: 100%;
+    padding: 200px 30px;
+    font-size: 175%;
+    margin-top: auto 175%;
+    font-family:var(--font);
+    color:var(--main) ;
+}
+
+.works-spacer {
+    margin-bottom: 1000px;
+}
+
+footer {
+    border: 1px solid yellow;
+}
+
+footer h2 {
+    color: var(--secondary);
+    font-size: 200%;
+    text-align: center;
+    margin-top: 30px
+}
+
+.eclipse {
+    width:80%;
+    position:relative;
+    top: 550px;
+    left: -290px;
+    transform: scale(1.80, 1.55);
+}
+
+.eclipse p {
+ 
+    }
+
+
+.flower {
+width: 500px;
+position: absolute;
+bottom: -1000px;
+left: 688px;
+}
+
+.mountain {
+width: 500px;
+position: absolute;
+bottom: -1000px;
+left: 1200px;
+}
+
+.magnifier {
+width: 500px;
+position: absolute;
+bottom: -1350px;
+left: 687px;
+}
+
+.cat {
+width: 500px;
+position: absolute;
+bottom: -1350px;
+left: 1200px;
+}
+
+
+img:hover {
+    box-shadow: 0px 0px 8px var(--hover), 0px 0px 15px var(--hover);
+}
